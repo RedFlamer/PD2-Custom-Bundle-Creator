@@ -13,6 +13,11 @@ path
 extension
 path
 extension
+APPENDALL "name of all_x bundle" e.g. APPEND all_4
+path
+extension
+path
+extension
 ENDPACKAGEINFO
-Append mode will not check to ensure the files you append aren't already present in the bundle, the bundle database will not be modified if the file is found, so appending assets from other bundles is possible
+Append/Appendall mode will not check to ensure the files you append aren't already present in the bundle, the bundle database will not be modified if the file is found, so appending assets from other bundles is possible
 The tool should have created new bundle files in the directory, they can then be placed in the assets folder of the game and loaded through PackageManager:load("package name")
