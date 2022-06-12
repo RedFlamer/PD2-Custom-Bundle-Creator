@@ -29,4 +29,4 @@ Description of the modes provided by the tool:
 PACKAGE: Creates new bundles that can be loaded through PackageManager:load("package name")
 APPEND: Appends assets onto a bundle that will get loaded when the bundle loads
 APPENDALL: Appends assets onto an all_x bundle that can be streamed in by the game
-CREATALL: Creates a new all_x bundle that can be used by the game
+CREATEALL: Creates a new all_x bundle that can be used by the game
