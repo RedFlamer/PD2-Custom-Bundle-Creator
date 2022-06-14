@@ -5,24 +5,16 @@ This tool was made for PAYDAY 2 update 24.2 and may have issues with other PD2 u
 In order to declare a package and it's contents create an info.txt file in the directory of the tool, it should strictly follow this specific format:
 PACKAGE "name of package" e.g. PACKAGE packages/my_custom_package
 path
-extension
 path
-extension
 APPEND "name of package" e.g. APPEND packages/game_base
 path
-extension
 path
-extension
 APPENDALL "name of all_x bundle" e.g. APPENDALL all_4
 path
-extension
 path
-extension
 CREATEALL "name of all_x bundle" e.g. CREATEALL all_4
 path
-extension
 path
-extension
 ENDPACKAGEINFO
 
 Description of the modes provided by the tool:
